@@ -22,7 +22,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      
         <div class="box">
           <nav class="header-nav">
             <a href="./index.html" lang="en" class="header-logo link"
@@ -41,10 +41,18 @@
 
           <ul class="cont-list link">
             <li class="item">
-              <a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a>
+              <a href="mailto:info@devstudio.com" class="header-mail link"
+                ><svg class="mail-ikon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use></svg
+                >info@devstudio.com</a
+              >
             </li>
             <li class="item">
-              <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
+              <a href="tel:+380961111111" class="header-tel link"
+                ><svg class="tel-ikon" width="10" height="15.99">
+                  <use href="./images/icons.svg#icon-smartphone"></use></svg
+                >+38 096 111 11 11</a
+              >
             </li>
           </ul>
         </div>
@@ -61,24 +69,44 @@
           <h2 class="hidden" hidden>Маска</h2>
           <ul class="features-list list">
             <li class="аttention">
+              <div class="crisper">
+                <svg class="ikon" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="title-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li class="punctual">
+              <div class="crisper">
+                <svg class="ikon" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="title-text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="plan">
+              <div class="crisper">
+                <svg class="ikon" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="title">ПЛАНУВАННЯ</h3>
               <p class="title-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="techno">
+              <div class="crisper">
+                <svg class="ikon" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="title-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -128,7 +156,7 @@
           <h2 class="command-title">Наша команда</h2>
           <div class="container-er">
             <ul class="command-list list">
-              <li class="itel">
+              <li class="command-itel">
                 <img
                   src="./images/designer-1.jpg"
                   alt="Дизайнер продуктів"
@@ -139,8 +167,38 @@
                   <h3 class="title-com">Ігор Дем'яненко</h3>
                   <p class="text-com" lang="en">Product Designer</p>
                 </div>
+                <ul class="itel-cos-list list">
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </li>
-              <li class="itel">
+              <li class="command-itel">
                 <img
                   src="./images/frontend-2.jpg"
                   alt="Фронтенд-розробник"
@@ -151,50 +209,229 @@
                   <h3 class="title-com">Ольга Рєпіна</h3>
                   <p class="text-com" lang="en">Frontend Developer</p>
                 </div>
+                <ul class="itel-cos-list list">
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </li>
-              <li class="itel">
+              <li class="command-itel">
                 <img src="./images/marketing-3.jpg" alt="Маркетолог" width="270" height="260" />
                 <div class="com">
                   <h3 class="title-com">Микола Тарасов</h3>
                   <p class="text-com" lang="en">Marketing</p>
                 </div>
+                <ul class="itel-cos-list list">
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </li>
-              <li class="itel">
+              <li class="command-itel">
                 <img src="./images/ui-designer-4.jpg" alt="UI-дизайнер" width="270" height="260" />
                 <div class="com">
                   <h3 class="title-com">Михайло Єрмаков</h3>
                   <p class="text-com" lang="en">UI Designer</p>
                 </div>
+                <ul class="itel-cos-list list">
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="itel-cos">
+                    <a href="#" class="itel-cos-link link">
+                      <svg width="20" height="20" class="itel-cos-icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
         </div>
       </section>
-    </main>
-    <footer class="footer-info">
-      <div class="container search">
-        <a href="./index.html" lang="en" class="footer-logo link"
-          >Web<span class="logo-f">Studio</span>
-        </a>
-        <address class="footer-address">
-          <ul class="contact-list">
-            <li class="maps">
-              <a
-                class="address-link link"
-                href="https://goo.gl/maps/zDpKeLgB5c4teAvk7"
-                target="_blank"
-                rel="noopener noreferrer noffolow"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
+
+      <section>
+        <div class="container">
+          <h2 class="client-title">Постійні клієнти</h2>
+          <ul class="client-list list">
+            <li class="client-items">
+              <a href="#" class="client-link link">
+                <svg class="client-ikon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-6" class="us"></use>
+                </svg>
+              </a>
             </li>
-            <li class="mail">
-              <a href="mailto:info@devstudio.com" class="footer-mail link">info@devstudio.com</a>
+            <li class="client-items">
+              <a href="#" class="client-link link">
+                <svg class="client-ikon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-1"></use>
+                </svg>
+              </a>
             </li>
-            <li class="tel">
-              <a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a>
+            <li class="client-items">
+              <a href="#" class="client-link link">
+                <svg class="client-ikon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-items">
+              <a href="#" class="client-link link">
+                <svg class="client-ikon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-items">
+              <a href="#" class="client-link link">
+                <svg class="client-ikon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-items">
+              <a href="#" class="client-link link">
+                <svg class="client-ikon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-5"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-info">
+        <div class="footer-container">
+          <div class="footer-one">
+            <a href="./index.html" class="footer-logo-link link"
+              ><span class="logo-span">Web</span>Studio
+            </a>
+            <address class="footer-address">
+              <ul class="contact-list list">
+                <li class="maps">
+                  <a
+                    class="address-link link"
+                    href="https://goo.gl/maps/zDpKeLgB5c4teAvk7"
+                    target="_blank"
+                    rel="noopener noreferrer noffolow"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
+                <li class="mail">
+                  <a href="mailto:info@devstudio.com" class="footer-mail link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="tel">
+                  <a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-two">
+            <p class="social-text">приєднуйтесь</p>
+            <ul class="social list">
+              <li class="social-cos">
+                <a href="" class="social-links link">
+                  <svg width="20" height="20" class="social-svg">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-cos">
+                <a href="" class="social-links link">
+                  <svg class="social-svg" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-cos">
+                <a href="" class="social-links link">
+                  <svg width="20" height="20" class="social-svg">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-cos">
+                <a href="" class="social-links link">
+                  <svg width="20" height="20" class="social-svg">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
