@@ -62,11 +62,10 @@ header {
   display: flex;
   align-items: center;
 }
-.box {
+.box-container {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
@@ -520,10 +519,7 @@ li > img {
 }
 
 /*----------------------PORTFOLIO---------------------------*/
-.button-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .button-items {
   display: flex;
 }
@@ -594,6 +590,11 @@ li > img {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
+.element:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .progects-title {
   font-weight: 700;
   font-size: 18px;
